@@ -1,0 +1,87 @@
+/* GENERAL */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #EAEAEA;
+}
+
+section{
+    width: 540px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #CBCBCB;
+}
+
+h1{
+    color: #F12950;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+h3, p {
+    color: #7C7C7C;
+}
+
+
+/* INTRO TIM BERNERS-LEE */
+
+#intro-tim-berners-lee{
+    display: grid;
+    grid-template-rows: 5% 110px 50% 5%;
+    grid-template-columns: 5% 90% 5%;
+    height: 400px;
+}
+
+.tim-berners-lee-photo{
+    display: grid;
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+}
+
+.wiki{
+    display: grid;
+    grid-column: 2 / 3 ;
+    grid-row: 3 / 4;
+}
+
+.tim-berners-lee-photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4PX solid #CBCBCB;
+    margin: 0 auto;
+}
+
+.wiki h1, h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wiki p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.wiki a{
+    text-align: center;
+}
+
+.button{
+    background: #F12950;
+    border-radius: 8px;
+    padding: 12px 2px;
+    width: 150px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
