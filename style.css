@@ -34,6 +34,7 @@ h3, p {
     grid-template-rows: 5% 110px 50% 5%;
     grid-template-columns: 5% 90% 5%;
     height: 400px;
+    margin-top: 30px;
 }
 
 .tim-berners-lee-photo{
@@ -86,9 +87,15 @@ h3, p {
 
 /* SOCIAL */
 
+#social-network{
+    margin-top: 20px;
+}
+
 .social{
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    margin-left: -50px;
+    padding: 40px;
 }
 
 ul{
@@ -96,11 +103,61 @@ ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    
+}
+
+.fa{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
 }
 
 a{
     text-align: center;
     text-decoration: none;
+    color: #CBCBCB;
+    
 }
 
+/* MOVIES */
+
+#favorite-movies{
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+.movies{
+    display: flex;
+}
+
+.movie-img{
+    height: 150px;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-bottom: 60px;
+}
+
+.movies h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.movie-sommaire h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #858182;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.movie-sommaire p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding-right: 10px;
+    font-size: 15px;
+    padding-right: 30px;
+}
 
