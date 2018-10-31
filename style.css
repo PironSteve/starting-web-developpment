@@ -84,4 +84,23 @@ h3, p {
     margin: 0 auto;
 }
 
+/* SOCIAL */
+
+.social{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+ul{
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
 
